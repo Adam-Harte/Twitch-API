@@ -1,0 +1,28 @@
+body {
+  color: white;
+  background: #6441A4;
+}
+
+.spacing {
+  margin: 10px 0;
+}
+
+.divider {
+  border-bottom: 2px solid white;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover, .nav-tabs > li> a:focus {
+  color: white;
+  background-color: #9AAA12;
+  border: 1px solid #DAEB4E;
+}
+
+.nav-tabs > li > a {
+  color: white;
+}
+
+/* DAEB4E */

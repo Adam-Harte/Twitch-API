@@ -6,27 +6,57 @@
   
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 
-  
+      <link rel="stylesheet" href="css/style.css">
+
   
 </head>
 
 <body>
   <body>
   <div class="container">
-    <h1 class="text-center">Twitch API App</h1>
-    <div id="fcc-twitch" class="text-center">
+    <div class="spacing">
+    <img class="img-responsive center-block" src="https://img.clipartfest.com/4a6c7c154879c84e6bac6cfa12a34e1e_html-why-does-my-image-push-twitch-clipart-png_2193-727.png" style="width:400px"/>
+    </div>
+    
+    <div id="fcc-twitch" class="text-center spacing">
 
     </div>
-    <div id="stream-search">
-      <input id="twitch-search" class="form-control" type="search"></input>
-    </div>
-    <ul id="twitch-streams">
-
+    
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="nav-item active"><a class="nav-link" href="#all" aria-controls="All" role="tab" data-toggle="tab">All</a></li>
+      <li role="presentation" class="nav-item"><a class="nav-link" href="#online" aria-controls="Online" role="tab" data-toggle="tab">Online</a></li>
+      <li role="presentation" class="nav-item"><a class="nav-link" href="#offline" aria-controls="Offline" role="tab" data-toggle="tab">Offline</a></li>
     </ul>
+    
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="all">
+        <div class="row">
+          
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="online">
+        <div class="row">
+          
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="offline">
+        <div class="row">
+          
+        </div>
+      </div>
+    </div>
+  
+  <footer class="text-center">
+      <h5 class="text-center">Coded by Adam Harte</h5>
+  </footer>
   </div>
 </body>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
 
     <script src="js/index.js"></script>
 
